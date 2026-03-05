@@ -3,22 +3,25 @@
 This project builds a machine learning model to detect fraudulent credit card transactions.
 
 ## Models Used
-- Logistic Regression
-- Random Forest
+- **Logistic Regression** – Baseline model for fraud classification  
+- **Random Forest** – Ensemble model used for improved prediction performance  
 
-## Techniques
-- Handling class imbalance
-- Threshold optimization
-- ROC Curve & AUC
-- Precision–Recall Curve
-- Feature Importance
+## Techniques Applied
+- Handling **extreme class imbalance** in fraud data  
+- **Cost-based threshold optimization** to minimize financial loss  
+- **ROC Curve and AUC** for model discrimination evaluation  
+- **Precision–Recall Curve** for performance evaluation on imbalanced data  
+- **Feature Importance analysis** using Random Forest  
 
 ## Results
 
-| Model | Best Threshold | Business Cost |
-|------|------|------|
-| Logistic Regression | 0.97 | ₹133700 |
-| Random Forest | 0.13 | ₹122,300 |
+| Model | Optimal Threshold | Business Cost |
+|------|------------------|--------------|
+| Logistic Regression | 0.97 | ₹133,700 |
+| Random Forest | 0.13 | **₹122,300** |
+
+### Key Outcome
+After optimizing the classification threshold using a **business cost function**, the **Random Forest model achieved the lowest financial loss**. Therefore, Random Forest was selected as the final model for fraud detection in this project.
 
 ## Dataset
 
