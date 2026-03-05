@@ -17,7 +17,7 @@ This project builds a machine learning model to detect fraudulent credit card tr
 
 | Model | Best Threshold | Business Cost |
 |------|------|------|
-| Logistic Regression | 0.10 | ₹214,500 |
+| Logistic Regression | 0.97 | ₹133700 |
 | Random Forest | 0.13 | ₹122,300 |
 
 ## Dataset
